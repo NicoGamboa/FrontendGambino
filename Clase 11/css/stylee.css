@@ -1,0 +1,67 @@
+header{
+    background-color: black;
+    position: relative;
+}
+a {
+    color: white;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#navegacion{
+    display: flex;
+}
+#enlaces{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+
+}
+#envi  {
+    color: red;
+}
+#dos {
+    color: red;
+}
+#comp {
+    color: white;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.hijos{
+    width: 40%;
+    position:relative;
+}
+.nombre {
+    position: absolute;
+    left: 5%;
+    
+}
+#delivery{
+    border-radius: 5%;
+}
+.hijos1{
+    position: relative;
+    width: 40%;
+}
+.podio {
+    color: red;
+    text-align: center;
+}
+#img{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+}
+#top {
+    font-weight: bold;
+}
+ol {
+    position: absolute;
+    font-weight: bold;
+}
