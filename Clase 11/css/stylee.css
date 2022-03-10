@@ -48,6 +48,8 @@ nav{
 .hijos1{
     position: relative;
     width: 40%;
+    
+    
 }
 .podio {
     color: red;
@@ -64,4 +66,17 @@ nav{
 ol {
     position: absolute;
     font-weight: bold;
+}
+footer{
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+#u{
+    color: white;
+}
+#fotimg{
+    position: absolute;
+    right: 5%;
+    top:8%
 }
