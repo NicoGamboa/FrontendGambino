@@ -1,0 +1,167 @@
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+#arriba{
+    background-color: orange;
+}
+nav {
+    position: relative;
+    bottom: 16px;
+    background-color: darkblue;
+    color: white;
+    padding: 1% 0;
+    
+}
+#aaa{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+#Batman{
+    background-color: #F3F3F3;
+    position: relative;
+
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Batman1{
+    display: block;
+    width: 30vw;
+    border-radius: 10% 10% 0 0;
+}
+#Batman2{
+    border-radius: 50%;
+    width: 10vw;
+    position: absolute;
+    bottom: 40%;
+
+}
+#Batman3{
+    position: absolute;
+    bottom: 20%;
+    text-align: justify;
+}
+#Batman4{
+    position: absolute;
+    bottom: 1%;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+}
+#Mujer{
+    background-color: #F3F3F3;
+    position: relative;
+    
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Mujer1{
+    display: block;
+    width: 30vw;
+    border-radius: 10% 10% 0 0;
+}
+#Mujer2{
+    border-radius: 50%;
+    width: 10vw;
+    position: absolute;
+    bottom: 40%;
+
+}
+#Mujer3{
+    position: absolute;
+    bottom: 20%;
+    text-align: justify;
+}
+#Mujer4{
+    position: absolute;
+    bottom: 1%;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+}
+#Superman{
+    background-color: #F3F3F3;
+    position: relative;
+
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Superman1{
+    display: block;
+    width: 30vw;
+    border-radius: 10% 10% 0 0;
+}
+#Superman2{
+    border-radius: 50%;
+    width: 10vw;
+    position: absolute;
+    bottom: 40%;
+
+}
+#Superman3{
+    position: absolute;
+    bottom: 20%;
+    text-align: justify;
+}
+#Superman4{
+    position: absolute;
+    bottom: 1%;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+}
+#Harley{
+    background-color: #F3F3F3;
+    position: relative;
+    
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Harley1{
+    display: block;
+    width: 30vw;
+    border-radius: 10% 10% 0 0;
+}
+#Harley2{
+    border-radius: 50%;
+    width: 10vw;
+    position: absolute;
+    bottom: 40%;
+
+}
+#Harley3{
+    position: absolute;
+    bottom: 20%;
+    text-align: justify;
+}
+#Harley4{
+    position: absolute;
+    bottom: 1%;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+}

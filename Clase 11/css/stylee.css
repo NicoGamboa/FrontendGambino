@@ -67,10 +67,12 @@ ol {
     position: absolute;
     font-weight: bold;
 }
-footer{
+#fot{
     background-color: black;
     display: flex;
     position: relative;
+    align-items: center;
+  
 }
 #u{
     color: white;
@@ -78,5 +80,5 @@ footer{
 #fotimg{
     position: absolute;
     right: 5%;
-    top:8%
+
 }

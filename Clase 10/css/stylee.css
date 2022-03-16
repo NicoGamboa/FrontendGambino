@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+.heroes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.batman1 {
+    border: 10px;
+}
+.batman {
+    width: 200px;
+}
+.corazon1{
+    position: absolute;
+    left: 15px;
+}
+.perfil1 {
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    border-radius: 60%;
+}
+region header {
+    background-color: #1CD1B0;
+}
+h1 {
+    text-align:start;
+    background-color: #00669F;
+    height: 101px;
+}
+footer {
+    background-color: #00669F;
+}
+img {
+    display: inline-block;
+}
+p{
+    width: 200px;   
+}
