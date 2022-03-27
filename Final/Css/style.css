@@ -26,6 +26,9 @@ p{
     background-color: #F3603B;
     color: white;
 }
+#menu{
+    display: none;
+}
 #primero{
     padding-top:10vh ;
     display: flex;
@@ -113,7 +116,9 @@ p{
     position: relative;
     left: 45%;
 }
-
+#pieImagen{
+    display: none;
+}
 #primerfooter{
     display: flex;
     justify-content: space-between;
@@ -184,3 +189,95 @@ input:focus{
     background-color:rgb(153, 250, 213);
 }
 
+@media (max-width: 480px){
+    #listasuperior{
+        display: none;
+    }
+    #menu{
+        display: inline;
+    }
+    .botonuno{
+        display: none;
+    }
+    #barrasuperior{
+        justify-content: space-between;
+    }
+    #logosuperior{
+        margin-left: 3vh;
+    }
+    #primero{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-right: 3vw;
+    }
+    #contenedor1{
+        width: 90%;
+        text-align: center;
+        padding-left:5vh ;
+    }
+    #pcontenedor1,#phijo2{
+        color: #B9B9C1;
+    }
+    #li1::before{
+        position: relative;
+        left: 0%;
+    }
+    #li2::before{
+        position: relative;
+        left: 0%;
+    }
+    #li3::before{
+        position: relative;
+        left: 0%;
+    }
+    #segundo{
+        flex-wrap: wrap;
+    }
+    #hijo1,#hijo2{
+        width: 85%;
+    }
+    #hijo1{
+        text-align: center;
+    }
+    .personaDyI{
+        display: none;
+    }
+    #tercero{
+        margin-left: 6vw;
+    }
+    #hijo{
+        width: 70%;
+    }
+    #contenedorcelular{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #pieImagen{
+        display: inline;
+        width: 20%;
+        position: relative;
+        left: 40%;
+        padding: 3vh 0 ;
+    }
+    .posboton1{
+        position: relative;
+        left: 30%;
+        width: 40%;
+    }
+
+    #primerfooter{
+        flex-direction: column;
+        height: 30vh;
+        justify-content: center;
+    }
+    
+    .titulofooter{
+        width: 60%;
+        text-align: center;
+    }
+    #boton2{
+        position: relative;
+        left: 3%;
+    }
+}
