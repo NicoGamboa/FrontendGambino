@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superheroes</title>
+    <link rel="stylesheet" href="Css\Stylee.css">
+</head>
+<body>
+    <header>
+        <p id="descuento">20% de descuento en todos los productos</p>
+        <div id="nombre1">
+        <img src="Img\Logo (2).png" alt="Logo">
+        <h3>Nombre Tienda</h3>
+        </div>
+        <div id="contacto">
+            <ul type="none">
+            <li>Contacto</li><span>"""""""""</span>
+            <li>Registrarme</li><span>"""""""""</span>
+            <li>Ingresar</li><span>"""""""""</span>
+        </ul>
+        </div>
+    </header>
+    <main>
+        <div id="principal">
+            <h1>Añadí tu super!</h1>
+            <h4>Agregá tu personaje favorito completando las opciones.</h4>
+            <form action="/basededatos" method="post">
+            <div id="a">
+            <fieldset>
+            <div id="contenedor1">
+            <label for="nombre">*Nombre</label>   
+            <input type="text" name="nombre" id="nombre" required>
+            <label for="fecha">Fecha</label>   
+            <input type="date" name="fecha" id="fecha">
+            <textarea name="comentario" id="comentario" placeholder="Descripción"></textarea>
+            </fieldset>
+            
+        <fieldset>
+            <div id="contenedor2">
+            
+            <label for="especie">*Especie</label>
+            <select name="especie" id="especie">
+                <option value="terricola">Terricola</option>
+                <option value="marciano">Marciano</option>
+                <option value="krypton">Krypton</option>
+                <option value="sayan">Sayayin</option>
+            </select>    
+            <label for="elegirfoto">Agregar Foto</label>
+            <input type="file" name="elegirfoto" id="elegirfoto" accept=".jpg">
+            <div id="listapoder">
+                <label for="poder">Poderes</label>
+                <div id="b">
+                <input type="checkbox" name="poder" id="poder">
+                <label for="poder">Volar</label>
+                
+                <div>
+                <input type="checkbox" name="poder" id="poder">
+                <label for="poder">SuperInteligencia</label>
+            </div>
+            <div>
+                <input type="checkbox" name="poder" id="poder">
+                <label for="poder">Vista de rayo láser</label>
+            </div>
+            <div>
+            </div>
+                <input type="checkbox" name="poder" id="poder">
+                <label for="poder">Billetera Gorda</label>
+            </div>
+        </div>
+            <div id="tipodepersonaje">
+                <label for="tipo">Tipo de personaje </label>
+                <div id="x">
+                <input type="radio" name="tipo" id="tipo">
+                <label for="tipo">Héroe / Heroina</label>
+            </div>
+            <div>
+                <input type="radio" name="tipo" id="tipo">
+                <label for="tipo">Villano / Villana</label>
+            </div>
+            </div>
+        </fieldset>
+            </div>
+            <button type="submit">Anadir </button>
+    </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

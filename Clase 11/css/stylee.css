@@ -70,7 +70,8 @@ ol {
 #fot{
     background-color: black;
     display: flex;
-    position: relative;
+    position: absolute;
+    width: 100vw;
     align-items: center;
   
 }

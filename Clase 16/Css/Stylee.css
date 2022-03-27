@@ -1,0 +1,143 @@
+#descuento {
+    background-color: #1CD1B0;
+}
+#nombre1{
+    display: flex;
+    background-color: #00669F;
+    color: white;
+    padding: 0.5%;
+    position: relative;
+    bottom: 1.9vh;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: black;
+    position: relative;
+    bottom: 3.8vh;
+}
+
+span{
+    color: black;
+}
+#principal{
+    background-color:#00669F;
+    color: white;
+    width: 35vw;
+    position: absolute;
+    left: 30%;
+    border-radius: 10px;
+}
+#a{
+    display: flex;
+}
+#contenedor1{
+    padding-left: 1vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+#contenedor2{
+    display: flex;
+    flex-direction: column;
+}
+input:focus{
+    background-color:red ;
+}
+h1{
+    text-align: center;
+}
+h4{
+    position: relative;
+    bottom: 2vh;
+    text-align: center;
+}
+#nombre:hover{
+    background-color: lightgreen;
+}
+#nombre{
+    width: 15vw;
+    height: 5vh;
+    border-radius: 7px;
+    border-style: none;
+    margin-bottom: 3vh;
+    
+}
+#especie{
+    width: 15vw;
+    height: 5vh;
+    border-radius: 7px;
+    border-style: none;
+    margin-bottom: 4vh;
+    
+}
+#fecha{
+    width: 15vw;
+    height: 5vh;
+    border-radius: 7px;
+    border-style: none;
+   
+}
+#comentario{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 7px;
+    border-style: none;
+    margin-top: 5vh;    
+}
+#elegirfoto{
+    width: 15vw;
+    border-radius: 7px 7px;
+    border-style: none;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+}
+#listapoder{
+    display: flex;
+    flex-direction: column;
+}
+#b{
+    padding-top: 1vh;
+}
+fieldset{
+    border-style: none;
+}
+#tipodepersonaje{
+    display: flex;
+    flex-direction: column;
+}
+#listapoder{
+    padding-bottom: 1vh;
+}
+#x{
+    padding-top: 1vh ;
+}
+button{
+    padding: 1.3vh 10vh;
+    position: relative;
+    left: 25%;
+    font-weight: bold;
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1CD1B0;
+    border-radius: 15px;
+    border-style: none;
+    margin-bottom: 2vh;
+    
+}
+footer{
+    background-color: #00669F;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+form:valid{
+    background-color: goldenrod;
+}
+button:hover{
+cursor: pointer;
+}
+
