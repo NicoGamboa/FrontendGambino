@@ -64,8 +64,8 @@ p{
     background-color: #F3603B;
     border-radius: 10px;
     position: absolute;
-    top: 80.5%;
-    left: 60%;
+    top: 96.5vh;
+    left: 59vw;
     color: white;
 }
 #li2::before{
@@ -75,8 +75,8 @@ p{
     background-color: #F3603B;
     border-radius: 10px;
     position: absolute;
-    top: 95%;
-    left: 60%;
+    top: 118vh;
+    left: 59vw;
     color: white;
 }
 #li3::before{
@@ -86,8 +86,8 @@ p{
     background-color: #F3603B;
     border-radius: 10px;
     position: absolute;
-    top: 108.5%;
-    left: 60%;
+    top: 139.5vh;
+    left: 59vw;
     color: white;
 }
 #pli{
@@ -141,6 +141,11 @@ p{
     background-color: white;
     margin-right:6.5vw ;
 }
+#listafooter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vw;
+}
 #segundofooter{
     color: white;
     background-color: #1E1E26;
@@ -154,6 +159,17 @@ p{
     justify-content: space-around;
     font-weight: 400;
 }
+#subfooter2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 400;
+    margin: 1vh 3vw;
+}
+.subfootercelu3{
+    position: relative;
+    bottom: 25%;
+}
 #iconos{
     display: flex;
     justify-content: space-between;
@@ -161,10 +177,15 @@ p{
 .subfooter3{
     height: 10vh;
 }
+.subfootercelu{
+    margin-bottom: 10vh;
+}
 #copyright{
     font-size: 60%;
     color: #8C8C94;
-    padding-left: 4vw;
+    position: absolute;
+    right: 15%;
+    top: 250%;
 }
 #form{
     padding: 1.5vh 2vw;
@@ -180,6 +201,7 @@ p{
     margin-left: 1vw;
 }
 button:hover{
+    transform: scale(1.2);
     cursor: pointer;
 }
 input:hover{
@@ -189,7 +211,12 @@ input:focus{
     background-color:rgb(153, 250, 213);
 }
 
-@media (max-width: 480px){
+@media (max-width: 700px){
+    body{
+        background-image: url(../Img/fondo2.svg);
+        background-repeat: repeat-y;
+        background-position: 0 -10%;
+    }
     #listasuperior{
         display: none;
     }
@@ -218,17 +245,29 @@ input:focus{
     #pcontenedor1,#phijo2{
         color: #B9B9C1;
     }
+    #contenedor2{
+        width: 100%;
+        margin-left: 4vw;
+    }
+    #li1,#li3,#li2{
+        background-color: rgb(255, 242, 234);
+        padding: 1.2vh 0;
+        border-radius: 20px 0px 0px 20px;
+    }
     #li1::before{
         position: relative;
         left: 0%;
+        top: 0%;
     }
     #li2::before{
         position: relative;
         left: 0%;
+        top: 0%;
     }
     #li3::before{
         position: relative;
         left: 0%;
+        top: 0%;
     }
     #segundo{
         flex-wrap: wrap;
@@ -257,12 +296,12 @@ input:focus{
         display: inline;
         width: 20%;
         position: relative;
-        left: 40%;
+        left: 42%;
         padding: 3vh 0 ;
     }
     .posboton1{
         position: relative;
-        left: 30%;
+        left: 31%;
         width: 40%;
     }
 
@@ -280,4 +319,32 @@ input:focus{
         position: relative;
         left: 3%;
     }
-}
+    #segundofooter{
+        padding: 7vh 0vh 20vh;
+        flex-direction:row-reverse;
+        flex-wrap:wrap-reverse
+    }
+    #subfooter1{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        position: absolute;
+        top: 345vh;
+    }
+    #subfooter2{
+        padding-right: 5vw;
+    }
+    #iconos{
+        padding: 5vh 0 ;
+    }
+    #copyright{
+        position: absolute;
+        right: 32vw;
+        top: 362vh;
+    }
+    #formulario{
+        width: 130%;
+    }
+    #boton4{
+        width: 20%;
+    }
+} 
