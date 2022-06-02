@@ -1,0 +1,36 @@
+$blanco-color: white;
+$primary-color: #005677;
+$secundary-color:#c4c4c4;
+
+body{
+background-color: #fff;
+    img{
+        margin: auto;
+        display: block;
+        }
+    h1{
+        text-align: center;
+        color: $primary-color;
+        background-color: $secundary-color;
+    }
+    h3{
+        color: $primary-color;
+        background-color: $secundary-color;
+    }
+    b{
+        font-style: italic;
+    }
+    footer{
+        color: $blanco-color;
+        background-color: $primary-color;
+        text-align: center;
+        #footer{
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            img{
+                padding-left: 0.5rem;
+            }
+        }
+    }
+}

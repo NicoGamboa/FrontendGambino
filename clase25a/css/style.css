@@ -1,0 +1,21 @@
+header{
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(183, 182, 182);
+    margin-bottom: 2vh;
+}
+
+#imagenes{
+    margin: 0 3rem 0 3rem;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    border: solid 1px rgb(183, 182, 182);
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-template-rows: auto;
+}
+#img1{
+    border-radius: 50%;
+}
